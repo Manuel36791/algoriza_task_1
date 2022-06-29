@@ -1,9 +1,10 @@
 import 'package:algoriza_task_1/constants/constants.dart';
+import 'package:algoriza_task_1/pages/login_screen/login_screen.dart';
 import 'package:algoriza_task_1/widgets/material_button.dart';
 import 'package:flutter/material.dart';
 
-class SplashScreen extends StatelessWidget {
-  const SplashScreen({Key? key}) : super(key: key);
+class OnboardingScreen extends StatelessWidget {
+  const OnboardingScreen({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -98,7 +99,7 @@ class SplashScreen extends StatelessWidget {
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                Text('Don\'t have an account? '),
+                const Text('Don\'t have an account? '),
                 TextButton(
                   onPressed: () {},
                   child: const Text(

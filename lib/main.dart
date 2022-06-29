@@ -1,4 +1,4 @@
-import 'package:algoriza_task_1/pages/first_splash_screen/splash_screen.dart';
+import 'package:algoriza_task_1/pages/first_splash_screen/onboarding_screen.dart';
 import 'package:algoriza_task_1/pages/login_screen/login_screen.dart';
 import 'package:algoriza_task_1/pages/register_screen/register_screen.dart';
 import 'package:algoriza_task_1/pages/second_splash_screen/second_splash_screen.dart';

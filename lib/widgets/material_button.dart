@@ -13,8 +13,8 @@ class MaterialBtn extends StatelessWidget {
     Key? key,
     this.radius = 5.0,
     this.width,
-    this.height = 35.5,
-    this.color = Colors.blue,
+    this.height = 35.0,
+    this.color = Colors.teal,
     required this.label,
     this.textColor = Colors.white,
     this.onClick,
@@ -33,7 +33,9 @@ class MaterialBtn extends StatelessWidget {
         width: width,
         child: MaterialButton(
           color: color,
-          onPressed: onClick,
+          onPressed: () {
+            onClick!();
+          },
           child: Text(
             label,
             style: TextStyle(
